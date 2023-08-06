@@ -3,7 +3,7 @@ mensagem “número par” ou “numero impar”. -->
 <?php
 
 $numero = 7;
-$verifiqueImparPar = $numero % 7;
+$verifiqueImparPar = $numero % 2;
  
 $impaPar =  ($verifiqueImparPar == 0) ? "número par" : "número impar";
 
