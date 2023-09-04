@@ -50,6 +50,7 @@ class Person {
           Verde
           Preto
       ";
+      exit();
     }
 
     $verifiqueGenero =  
@@ -65,6 +66,7 @@ class Person {
       Use Apenas <br>
           Masculino ou   Feminino 
       ";
+      exit();
     }
 
   }
@@ -103,6 +105,7 @@ class Person {
                 Verde
                 Preto
             ";
+            exit();
             
         }
     }
@@ -131,6 +134,7 @@ class Person {
                 Masculino <br> 
                 Feminino 
             ";
+            exit();
         }
     }
     
@@ -194,6 +198,10 @@ echo $objetoPerson1->getGenero();
 echo "<br>";
 
 echo $objetoPerson1->getIdade();
+echo "<br>";
+echo "<br>";
+
+var_dump($objetoPerson1);
 
 
 
